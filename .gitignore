@@ -1,0 +1,22 @@
+# Python cache
+*.pyc
+
+# outputs
+ana_res/
+eval_res/
+frame_result/
+v4_sample_100_sorted.json
+error_log.txt
+videos_frames/
+
+# utils
+msr_utils/
+
+#back up
+analyse.py
+debug/
+frame_result/
+v4_sample_100_sorted_video.json
+v4_json
+debug_video.json
+eval_single.py
