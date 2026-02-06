@@ -87,18 +87,18 @@ We conduct a comprehensive evaluation on 11 representative TI2V models, revealin
 
 ### 🤖 Video Gneneration
 
-The first frame and text prompt for video generation are [here](https://huggingface.co/datasets/Xm4nQ8/RISE-Video/tree/main). The generated videos should be organized in the form of:
+The first frame and text prompt for video generation are [here](https://huggingface.co/datasets/VisionXLab/RISE-Video/blob/main). The generated videos should be organized in the form of:
 
 `{MODEL NAME}/{CATEGORY}/{TASK_ID}`
 - `MODEL NAME`: Generation model.
 - `CATEGORY`: The category of the sample (e.g., `Subject Knowledge`).
-- `TASK_ID`: The unique ID of each sample (corresponding to the `"task_id"` field in the [JSON](https://huggingface.co/datasets/Xm4nQ8/RISE-Video/blob/main/v5.json)).
+- `TASK_ID`: The unique ID of each sample (corresponding to the `"task_id"` field in the [JSON](https://huggingface.co/datasets/VisionXLab/RISE-Video/blob/main/v5.json)).
 
-All video paths must be written into the `"video_path"` field of the [JSON](https://huggingface.co/datasets/Xm4nQ8/RISE-Video/blob/main/v5.json).
+All video paths must be written into the `"video_path"` field of the [JSON](https://huggingface.co/datasets/VisionXLab/RISE-Video/blob/main/v5.json).
 
 ### 🎬 Frame Extraction
 
-To generate the video frames required for the *Reasoning Alignment* dimension and facilitate visualization. First, configure the path to the JSON file containing the `"video_path"` field and the frame storage path in the `data_json` and `root_folder` parameters [here](https://github.com/123sio/RISE-Video/blob/master/reasoning_fps/fps_clip.py).
+To generate the video frames required for the *Reasoning Alignment* dimension and facilitate visualization. First, configure the path to the JSON file containing the `"video_path"` field and the frame storage path in the `data_json` and `root_folder` parameters [here](reasoning_fps/fps_clip.py).
 Then, run the following code to extract and store the frames:
 
 ```
@@ -109,7 +109,7 @@ The extracted and saved frames will be automatically written into the `"frame_pa
 
 ### 🎯 Evaluation
 
-Configure the parameters [here](https://github.com/123sio/RISE-Video/blob/master/eval.py):
+Configure the parameters [here](eval.py):
 
 - `data_json`: Path to video result json with `"frame_path"`.
 - `root_dir`: Intermediate file storage root directory.
